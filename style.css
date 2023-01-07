@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Section -- start */
+
+.banner {
+    background: url('images/banner/banner3.png');
+    height: 750px;
+    margin-bottom: 100px;
+}
+
+.header {
+    padding: 150px 200px 300px 800px;
+}
+
+.header-title {
+    height: 228px;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.header-description {
+    margin-top: 30px;
+    padding-top: 10px;
+    height: 78px;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+.header-btn {
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-left: 380px;
+
+}
+
+/* Header Section -- end */
+
+/* Main section -- start */
+.failure-section {
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.my-failure {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.failure-title {
+    height: 70px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+}
+
+.failure-description {
+    height: 60px;
+    color: #444343;
+
+}
+
+.inspiration-section{
+    width: 1140px;
+    border-radius: 10px;
+    height: 500px;
+    background-image: url("images/inspire1.jpg");
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+
+.inspiration-title{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.inspiration-description{
+    text-align: center;
+    color: #ffffff;
+    margin: 20PX 100PX;
+    
+}
+.inspire-img{
+    height: 30px;
+    width: 20px;
+}
+
+
+
+.plan-section {
+    margin-bottom: 100px;
+}
+
+.plan-heading {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 50px;
+
+}
+
+.plan {
+    display: flex;
+    gap: 40px;
+    margin: 0px 50px;
+}
+
+.plan-detail {
+    background-color: #e9d9d94f;
+    border-radius: 20px;
+    height: 250px;
+    width: 300px;
+    padding: 50px 20px;
+    box-shadow: 12px 12px 2px 1px rgba(120, 120, 136, 0.2);
+}
+
+.plan-image {
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+
+}
+
+/* Mindset section --start */
+.mindset {
+    width: 1140px;
+    background: linear-gradient(90deg, rgb(0, 95, 172) 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background: url(images/watch.png);
+    background-image: linear-gradient(90deg, rgb(0, 95, 172) 0%, rgba(0, 95, 172, 0) 100%),
+        url("images/watch.png");
+}
+
+.mindset-title {
+    width: 500px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+
+.mindset-btn {
+    height: 64px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* Footer section start */
+.footer-section {
+    
+    height: 250px;
+    background: #151414;
+    padding: 100px 250px;
+}
+
+.footer-section>.footer {
+    display: flex;
+    gap: 250px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+
+}
+
+.future-description {
+    color: #FFFFFF;
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.form {
+    width: 100px;
+}
+
+.email-input {
+    height: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fffbfb;
+    background-color: #151414;
+    border: 1px solid rgb(105, 91, 91);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.subscribe-btn {
+    padding: 10px 15px;
+    font-size: 17px;
+    background: #005FAC;
+    border-radius: 8px;
+    color: #FFFFFF;
+
+}
